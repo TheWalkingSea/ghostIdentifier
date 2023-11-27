@@ -1,0 +1,1 @@
+This was my second go at making a website and despite it's simplicity I was able to make a fully functioning interactive website that looked really nice on the front end and functioned in the back end. Also my first time working with voice to text software.
