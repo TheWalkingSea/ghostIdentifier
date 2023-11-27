@@ -1,0 +1,104 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phasmophobia Cheat Sheet</title>
+
+        <style>
+        *{
+            font-family: rubik,helvetica,arial,sans-serif;
+            color:#e6e6e6;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        p{
+            font-size: 1.3em;
+            font-size: inherit;
+            font-weight: 400;
+            line-height: 1.75;
+            /* margin: 0 0 24px; */
+            position: relative;
+            left: 10px;
+        }
+        html{
+            background-color: rgb(27, 26, 26);
+        }
+        #ghost{
+            position: relative;
+            /* display: inline; */
+            top: 15px;
+            text-align: center;
+        }
+        #lastmsg{
+            text-align: right;
+        }
+        #textbox{
+            position: absolute;
+            right: 5px;
+            width: 20%;
+        }
+        #evidencecontainer{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 99%;
+            position: absolute;
+            /* left:0;
+            right: 0;
+            margin: auto inherit; */
+        }
+        .evidence{
+            width: 30px;
+
+        }
+    </style>
+
+    <script type="text/javascript">
+    //put this somewhere in "show.html"
+    //using window onload event to run function
+    //so function runs after all content has been loaded.
+    //After refresh this entire script will run again.
+    window.onload = function () {
+        'use strict';
+        var millisecondsBeforeRefresh = 2500; //Adjust time here
+        window.setTimeout(function () {
+            //refresh the entire document
+            document.location.reload();
+        }, millisecondsBeforeRefresh);
+    };
+</script>
+</head>
+<body>
+    <div id="textbox"><h4 id="lastmsg"></h6></div>
+    <h1 id="ghost">UUAUU</h1>
+    <div id="evidencecontainer">
+        <img src="/static/book.webp" alt="" class="evidence">
+        <img src="/static/dotsproj.webp" alt="" class="evidence">
+        <img src="/static/emfreader.webp" alt="" class="evidence">
+    </div>
+
+        <div>
+            <h2>Strengths</h2>
+            <p>Focuses on the same player until that player is killed or has left the game</p>
+        </div>
+
+        <div>
+            <h2>Behaviour</h2>
+            <p>At the start of the game, the players are randomly sorted into a list, and the first person on the list is selected as the primary target. If the primary target leaves the game, or any player dies, a new primary target 
+will be selected.<br>A Banshee will only check for their target's sanity when trying to initiate a hunt, instead of the average sanity of the team. When a Banshee hunts, it will mostly follow standard hunt rules, but it will ignore all players other than its target, and will not attempt to chase other players and will not kill them, even if it comes into contact with a non-target player. The Banshee will react to Smudge Sticks lit by other players, but this will not allow for completion of the Repel a ghost while it is chasing someone optional objective unless the Banshee is also chasing its target when this occurs.<br>If a Banshee begins a hunt while its primary target is outside the building, the intended behaviour is for the Banshee to hunt like any other ghost, chasing any opportune player. However, the current mechanics appear to be bugged and work as follows: the Banshee will select the next person on its list that is inside the building as a temporary, secondary target and will only attempt to kill them. In the same hunt, if the host player is inside the investigation area and is neither the primary nor the secondary target, the Banshee will also be attracted to the host player through voice or electronics, but will not be able to achieve line-of-sight with or kill them. Any fourth player will be completely ignored by the Banshee. In all cases, the Banshee will still only check for its primary target's sanity when trying to start a hunt, even while they are outside.<br>The Banshee has a mechanic similar to the Phantom's, where it will occasionally walk to the position of its target outside of a hunt.<br>A Banshee will prefer to cause ghost events where it sings over other types of ghost events. If the target causes the Banshee to disappear during a singing event by colliding with it, their sanity will drop by 15 percent instead of the standard 10 percent.<br>Other than the effects stated above, being the Banshee's target does not appear to affect other mechanics such as the rate of interactions.<br>When a Parabolic Microphone is used, the Banshee has a chance of 
+making a unique shriek-like paranormal sound.</p>
+        </div>
+
+        <div>
+            <h2>Strategy</h2>
+            <p>Identifying the target player of a Banshee both conclusively identifies it and can provide players with a significant edge, such as making hunt-related objectives much easier, and enabling the other players to continue 
+investigating during hunts with impunity, though it is important to note that the target player must be inside the investigation area for this to be applicable. There are several methods players may use to identify a Banshee's target:<br>Banshees will only check for the individual sanity level of the target player when attempting to hunt. If the ghost hunts above the average sanity of 50 percent, and one or more players are below 50 percent sanity, then one of them is the target. Likewise, if the ghost refrains from hunting at below 50 percent average sanity, but one player has high sanity, they can be presumed to be the Banshee's target.<br>Having players act as "baits" with smudge sticks and/or escape routes ready can definitively identify the target. Bait players should stand in plain sight and attempt to actively attract the ghost, such as talking into the microphone or holding active electronics; if the ghost ignores 
+them, have another player repeat the process then proceed by elimination until the target is found. Alternatively, multiple players can do this at a time, standing separate from each-other and seeing which of them the Banshee rushes for. This method, though more risky, is useful either when the sanity-based method proves inconclusive, or when playing on Nightmare difficulty where the Sanity Monitor is not available.<br>Banshees tend to wander towards their target 
+outside of hunts; a player reporting frequent activity or even hunts starting near them and far away from the ghost room is most likely the target.<br>Note that if the target player dies or disconnects, a new target will be selected. 
+This also applies on the Nightmare difficulty: if the Banshee manages to kill its target, it will immediately select another player and continue hunting.</p>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+Identifying the target player of a Banshee both conclusively identifies it and can provide players with a significant edge, such as making hunt-related objectives much easier, and enabling the other players to continue investigating during hunts with impunity, though it is important to note that the target player must be inside the investigation area for this to be applicable. There are several methods players may use to identify a Banshee's target:
+
+Banshees will only check for the individual sanity level of the target player when attempting to hunt. If the ghost hunts above the average sanity of 50%, and one or more players are below 50% sanity, then one of them is the target. Likewise, if the ghost refrains from hunting at below 50% average sanity, but one player has high sanity, they can be presumed to be the Banshee's target.
+Having players act as "b
